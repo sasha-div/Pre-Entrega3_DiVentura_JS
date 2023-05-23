@@ -10,14 +10,14 @@ const btnVaciar = document.getElementById("btn-vaciar")
 const totalCarrito = document.getElementById("total")
 
 // Productos que creé y metí en el catálogo de mi tienda
-catalogo.push(new Articulo("/img/product_001.webp", "Elden Ring", "PS4", 45000, "2022"))
-catalogo.push(new Articulo("/img/product_002.webp", "The Last of Us: Part II", "PS4", 40000, "2020"))
-catalogo.push(new Articulo("/img/product_003.webp", "Horizon: Forbidden West", "PS4", 45000, "2022"))
-catalogo.push(new Articulo("/img/product_004.webp", "Zelda: Breath of The Wild", "Switch", 45000, "2022"))
-catalogo.push(new Articulo("/img/product_005.webp", "Mario Kart 8", "Switch", 35000, "2014"))
-catalogo.push(new Articulo("/img/product_006.webp", "Tomb Raider", "Xbox", 30000, "2013"))
-catalogo.push(new Articulo("/img/product_007.webp", "It Takes Two", "Xbox", 40000, "2021"))
-catalogo.push(new Articulo("/img/product_008.webp", "The Elder Scrolls V: Skyrim", "PS4", 35000, "2011"))
+catalogo.push(new Articulo("https://i.ibb.co/ZSKJ2kX/product-001.webp", "Elden Ring", "PS4", 45000, "2022"))
+catalogo.push(new Articulo("https://i.ibb.co/9VPmHvf/product-002.webp", "The Last of Us: Part II", "PS4", 40000, "2020"))
+catalogo.push(new Articulo("https://i.ibb.co/sPXZKPJ/product-003.webp", "Horizon: Forbidden West", "PS4", 45000, "2022"))
+catalogo.push(new Articulo("https://i.ibb.co/zJq5jtb/product-004.webp", "Zelda: Breath of The Wild", "Switch", 45000, "2022"))
+catalogo.push(new Articulo("https://i.ibb.co/L0ZpLMV/product-005.webp", "Mario Kart 8", "Switch", 35000, "2014"))
+catalogo.push(new Articulo("https://i.ibb.co/gMV3wYY/product-006.webp", "Tomb Raider", "Xbox", 30000, "2013"))
+catalogo.push(new Articulo("https://i.ibb.co/WBJfNjD/product-007.webp", "It Takes Two", "Xbox", 40000, "2021"))
+catalogo.push(new Articulo("https://i.ibb.co/FVmhDPY/product-008.webp", "The Elder Scrolls V: Skyrim", "PS4", 35000, "2011"))
 
 // Con esta función guardo mi catálogo en el storage local del navegador
 localStorage.setItem("catalogo", JSON.stringify(catalogo))
